@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/xmlcontents"
+    android:layout_width="187dp"
+    android:layout_height="346dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="62dp"
+    android:textColor="#1C1C1C"
+    android:textSize="20sp"
+    app:layout_constraintEnd_toStartOf="@+id/Json_Contents"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/Parse_XML" />
+
+<TextView
+    android:id="@+id/Json_Contents"
+    android:layout_width="195dp"
+    android:layout_height="350dp"
+    android:layout_marginTop="237dp"
+    android:textColor="#0C0C0C"
+    android:textSize="20sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/xmlcontents"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Button
+    android:id="@+id/Parse_XML"
+    android:layout_width="132dp"
+    android:layout_height="78dp"
+    android:layout_marginStart="17dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginTop="101dp"
+    android:layout_marginEnd="262dp"
+    android:layout_marginRight="262dp"
+    android:text="XML DATA"
+    android:textSize="16sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Button
+    android:id="@+id/Parse_JSON"
+    android:layout_width="143dp"
+    android:layout_height="74dp"
+    android:layout_marginStart="97dp"
+    android:layout_marginLeft="97dp"
+    android:layout_marginTop="104dp"
+    android:layout_marginEnd="27dp"
+    android:layout_marginRight="27dp"
+    android:text="JSON DATA"
+    android:textSize="16sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/Parse_XML"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="253dp"
+    android:layout_height="60dp"
+    android:layout_marginStart="111dp"
+    android:layout_marginLeft="111dp"
+    android:layout_marginTop="38dp"
+    android:layout_marginEnd="93dp"
+    android:layout_marginRight="93dp"
+    android:text="PARSING XML AND JSON DATA"
+    android:textSize=
+
+
+        "16sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />16s"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
